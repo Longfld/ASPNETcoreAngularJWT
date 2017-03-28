@@ -14,3 +14,7 @@ https://andrewlock.net/a-look-behind-the-jwt-bearer-authentication-middleware-in
 
 https://github.com/robisim74/AngularSPAWebAPI
 https://www.codeproject.com/Tips/1163971/Step-by-Step-Guide-for-Jwt-Token-Based-Authenticat
+
+
+
+https://github.com/mrsheepuk/ASPNETSelfCreatedTokenAuthExample
