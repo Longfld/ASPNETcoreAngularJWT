@@ -2,7 +2,7 @@
 Angular in ASP.NET Core with JWT solution
 
 https://code.msdn.microsoft.com/How-to-achieve-a-bearer-9448db57
-https://github.com/mrsheepuk/ASPNETSelfCreatedTokenAuthExample
+https://stormpath.com/blog/token-authentication-asp-net-core
 
 
 
