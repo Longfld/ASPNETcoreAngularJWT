@@ -1,7 +1,7 @@
 # ASPNETcoreAngularJWT
 Angular in ASP.NET Core (VS2017 or csproj version)with JWT solution
 
-after download:
+after download, go to folder with file ASPNETCoreAngularJWT.csproj and run command:
 
    >dotnet restore
    
