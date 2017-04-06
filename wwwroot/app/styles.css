@@ -1,0 +1,39 @@
+.mdl-tabs__tab-bar a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.mdl-tabs__tab-bar a.is-active {
+    border-bottom: 2px solid #ff4081;
+    color: #fff;
+}
+
+.mdl-tabs__tab-bar {
+    display: inline;
+}
+
+header {
+    background-color: #3f51b5;
+    overflow: auto;
+}
+
+main {
+    margin: 2em;
+}
+
+.card-wide {
+    width: 100%;
+    max-width: 500px;
+}
+
+.card-wide .mdl-card__title {
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+.mdl-card {
+    min-height: 0;
+}
+
+.mdl-card__supporting-text {
+    color: rgba(0, 0, 0, 0.87);
+}
