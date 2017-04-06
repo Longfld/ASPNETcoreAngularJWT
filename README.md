@@ -13,7 +13,11 @@ Finally start dotnet and browser http://localhost:5000 by
 
    >dotnet run
    
-And do not forget to run "npm start" after modify any typescript files
+And do not forget to run "npm start" after modify any typescript files.
+
+Also it can be opened by VS2017
+
+
 
 
 
