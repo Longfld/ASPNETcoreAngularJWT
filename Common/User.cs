@@ -1,6 +1,7 @@
  using System;
 
 
+ 
  namespace ASPNETCoreAngularJWT
 {
   public class User
