@@ -1,0 +1,16 @@
+<header>
+    <div class="mdl-tabs">
+        <div class="mdl-tabs__tab-bar">
+            <a [routerLink]="['/home']" class="mdl-layout__tab" routerLinkActive="is-active">Home<span class="mdl-ripple"></span></a>
+            <a [routerLink]="['/about']" class="mdl-layout__tab" routerLinkActive="is-active">About<span class="mdl-ripple"></span></a>
+             <a [routerLink]="['/secret']" class="mdl-layout__tab" routerLinkActive="is-active">secret<span class="mdl-ripple"></span></a>
+              <button (click)="logout()" ><span class="mdl-ripple" >logout</span></button>
+        </div>
+    </div>
+</header>
+<main>
+    
+    <router-outlet></router-outlet>
+    <h3>ASP.NET Core 1.1 And Angular implement of:  https://code.msdn.microsoft.com/How-to-achieve-a-bearer-9448db57</h3>
+    <h3>This is for learning purpose only</h3>
+</main>
