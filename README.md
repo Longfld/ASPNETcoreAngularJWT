@@ -23,9 +23,6 @@ Also it can be opened by VS2017
 
 ********************************
 
-https://andrewlock.net/introduction-to-authentication-with-asp-net-core/
-
-https://stormpath.com/blog/10-minute-asp-net-user-authentication
 
 
 
