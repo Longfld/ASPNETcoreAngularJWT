@@ -1,4 +1,8 @@
 # ASPNETcoreAngularJWT
+
+Here is very basic show case for jwt bearer token authorization, using angular as font end and ASP.NET Core as backend
+
+************************************************************
 Angular in ASP.NET Core (VS2017 or csproj version)with JWT solution
 
 after download, go to folder with file ASPNETCoreAngularJWT.csproj and run command:
