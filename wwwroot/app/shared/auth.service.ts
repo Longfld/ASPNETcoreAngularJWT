@@ -22,7 +22,7 @@ export class AuthService implements CanActivate {
     }
 
     public login$(userName: string, password: string) {
-        var header = new Headers({ 'Content-Type': 'application/json' });
+        let header = new Headers({ 'Content-Type': 'application/json' });
         let body = JSON.stringify({ "Username": userName, "Password": password });
         let options = new RequestOptions({ headers: header });
 
@@ -48,7 +48,7 @@ export class AuthService implements CanActivate {
    
 
     public checkLogin(): boolean {
-        var token = sessionStorage.getItem(this.tokeyKey);
+        let token = sessionStorage.getItem(this.tokeyKey);
         return token != null;
     }
 
@@ -69,9 +69,8 @@ export class AuthService implements CanActivate {
         let token = this.getLocalToken();
         if (token == null) throw "No token";
 
-        var headers = new Headers();
+        let headers = new Headers();
         headers.append("Authorization", "Bearer " + token);
-
         return headers;
     }
 
