@@ -21,6 +21,9 @@ And do not forget to run "npm start" after modify any typescript files.
 
 Also it can be opened by VS2017
 
+********************************
+https://stormpath.com/blog/10-minute-asp-net-user-authentication
+
 
 
 
