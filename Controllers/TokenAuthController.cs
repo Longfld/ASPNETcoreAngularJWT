@@ -58,7 +58,8 @@ namespace ASPNETCoreAngularJWT
             ClaimsIdentity identity = new ClaimsIdentity(
                 new GenericIdentity(user.Username, "TokenAuth"),
                 new[] {
-                    new Claim("ID", user.ID.ToString())
+                    new Claim("ID", user.ID.ToString()) 
+                    //, new Claim("MYTHING","MYVALUE").....
                 }
             );
 
