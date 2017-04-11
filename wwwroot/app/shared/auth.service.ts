@@ -69,7 +69,7 @@ export class AuthService implements CanActivate {
         let token = this.getLocalToken();
         if (token == null) throw "No token";
 
-        let headers = new Headers();
+        let headers = new Headers({ 'Content-Type': 'application/json' });
         headers.append("Authorization", "Bearer " + token);
         return headers;
     }
