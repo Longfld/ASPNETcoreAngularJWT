@@ -51,7 +51,7 @@ namespace ASPNETCoreAngularJWT
             }
         }
 
-        private string GenerateToken(User user, DateTime expires)
+        private string GenerateToken(ASPNETCoreAngularJWT.User user, DateTime expires)
         {
             var handler = new JwtSecurityTokenHandler();
 
