@@ -2,6 +2,7 @@
 
 Here is very basic show case for jwt bearer token authorization, using angular as font end and ASP.NET Core as backend.
 ASP.NET Core1.1 angular 4 with systemjs.
+(Why systemjs not webpack? Personal opinion: webpack just too complicated to use for any small size, simple application, I rather scarified efficient to let most programmers can read my example code)
 
 Now you can stop google and find out how to do bear JWT token Authentication, it is simple!
  
