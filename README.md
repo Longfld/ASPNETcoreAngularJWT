@@ -20,6 +20,10 @@ Finally start dotnet and browser http://localhost:5000 by
    
 And do not forget to run "npm start" after modify any typescript files.
 
+You can run this for angular compile and dotnet run
+
+    >npm run runall
+
 Also it can be opened by both Visual Studio 2017 or Visual Studio Code
 
 ********************************
