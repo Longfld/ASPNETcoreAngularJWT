@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "tsc",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "runall": "tsc && dotnet run"
   },
   "dependencies": {
     "@angular/animations": "4.0.2",
