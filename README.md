@@ -40,7 +40,8 @@ You can run this for angular compile and dotnet run
 
     >npm run runall
 
-Also it can be opened by both Visual Studio 2017 or Visual Studio Code
+Also it can be opened by both Visual Studio 2017 or Visual Studio Code.
+After open by VS2017 and before run as debug, make sure project-> property -> Debug and App URL ="http://localhost:5000" and rebuild again before start to debug
 
 ********************************
 
