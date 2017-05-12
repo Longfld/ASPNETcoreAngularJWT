@@ -2,7 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { LoginComponent } from './Login/login.component';
+import { LoginComponent } from './login/login.component';
 import { SecretComponent } from './secret/secret.component';
 import { AuthService} from './shared/auth.service';
 
