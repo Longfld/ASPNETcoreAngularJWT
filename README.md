@@ -43,12 +43,18 @@ You can run this for angular compile and dotnet run
 Also it can be opened by both Visual Studio 2017 or Visual Studio Code.
 After open by VS2017 and before run as debug, make sure project-> property -> Debug and App URL ="http://localhost:5000" and rebuild again before start to debug
 
-********************************
+**************************************************
+For linux user, RSACryptoServiceProvider exists in .Net Core 2.0 or up, need to install .Net Core 2.0 Preview (or up) and ponts project TargetFramework to 2.0 by:
 
+ 1. install .Net Core 2.0 preview from here: https://www.microsoft.com/net/core/preview#linuxubuntu
+ 
+ 2. Open file ASPNETCoreAngularJWT.csproj, change from: 
+  
+   \<PropertyGroup><TargetFramework>netcoreapp1.1<\/TargetFramework><\/PropertyGroup/>
+  
+   to:
 
-
-
-
+   \<PropertyGroup><TargetFramework>netcoreapp2.0<\/TargetFramework><\/PropertyGroup>
 
 
 
