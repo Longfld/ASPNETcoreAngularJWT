@@ -48,13 +48,11 @@ For linux user, RSACryptoServiceProvider exists in .Net Core 2.0 or up, need to 
 
  1. install .Net Core 2.0 preview from here: https://www.microsoft.com/net/core/preview#linuxubuntu
  
- 2. Open file ASPNETCoreAngularJWT.csproj, change from: 
+ 2. Open file ASPNETCoreAngularJWT.csproj, exists if tag TargetFramework exists change from: 
   
-   \<PropertyGroup><TargetFramework>netcoreapp1.1<\/TargetFramework><\/PropertyGroup/>
-  
+   netcoreapp1.1
    to:
-
-   \<PropertyGroup><TargetFramework>netcoreapp2.0<\/TargetFramework><\/PropertyGroup>
+   netcoreapp2.0
 
 
 
