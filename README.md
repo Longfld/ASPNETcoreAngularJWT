@@ -1,7 +1,7 @@
 # ASPNETcoreAngularJWT
 
 Here is very basic show case for jwt bearer token authorization, using angular as font end and ASP.NET Core as backend.
-ASP.NET Core1.1 angular 4 with systemjs.
+ASP.NET Core2 angular 4 with systemjs.
 
 ***********************************************************
 
@@ -20,9 +20,11 @@ At frontend(angular in this case): save the token in sessionStorage, and when ta
      headers.append("Authorization", "Bearer " + token);
 
 ************************************************************
-Angular in ASP.NET Core (VS2017 or csproj version)with JWT solution
+Angular (4.3.5) in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
 
-after download, go to folder with file ASPNETCoreAngularJWT.csproj and run command:
+Make sure ASP.NET CORE 2 has been install, it not, go here: https://www.microsoft.com/net/download/core
+
+after download this repositiry, go to folder with file ASPNETCoreAngularJWT.csproj and run command:
 
     >dotnet restore
    
