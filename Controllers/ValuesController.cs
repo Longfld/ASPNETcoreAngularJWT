@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ASPNETCoreAngularJWT
 {
@@ -41,8 +42,8 @@ namespace ASPNETCoreAngularJWT
         {
         }
 
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("GetStaff")]
-        [Authorize("Bearer")]
         public IActionResult GetStaff()
         {
             List<string> model = new List<string>();
