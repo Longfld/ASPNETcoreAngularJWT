@@ -35,6 +35,5 @@ namespace ASPNETCoreAngularJWT
 
             webHost.Run();
         }
-        }
     }
 }
