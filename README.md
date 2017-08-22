@@ -22,7 +22,8 @@ At frontend(angular in this case): save the token in sessionStorage, and when ta
 ************************************************************
 Angular (4.3.5) in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
 
-Make sure ASP.NET CORE 2 has been install, it not, go here: https://www.microsoft.com/net/download/core
+Make sure ASP.NET CORE 2 has been installed, if not, get from here:
+  https://www.microsoft.com/net/download/core
 
 after download this repositiry, go to folder with file ASPNETCoreAngularJWT.csproj and run command:
 
