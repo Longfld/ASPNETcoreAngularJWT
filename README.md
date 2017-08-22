@@ -1,6 +1,6 @@
 # ASPNETcoreAngularJWT
 
-Here is very basic show case for jwt bearer token authorization, using angular as font end and ASP.NET Core as backend.
+Here is very basic show case for jwt bearer token authorization, using angular as front end and ASP.NET Core as backend.
 ASP.NET Core2 angular 4 with systemjs.
 
 ***********************************************************
