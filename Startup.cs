@@ -47,8 +47,7 @@ namespace ASPNETCoreAngularJWT
                     ValidateLifetime = true,
                     // This defines the maximum allowable clock skew - i.e. provides a tolerance on the token expiry time 
                     // when validating the lifetime. As we're creating the tokens locally and validating them on the same 
-                    // machines which should have synchronised time, this can be set to zero. Where external tokens are
-                    // used, some leeway here could be useful.
+                    // machines which should have synchronised time, this can be set to zero. and default value will be 5minutes
                     ClockSkew = TimeSpan.FromMinutes(0)
                 };
 
