@@ -30,7 +30,7 @@ namespace ASPNETCoreAngularJWT
                 .ConfigureLogging((hostingContext, logging) =>
                 {
                     logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-                    logging.AddSerilog();
+                    logging.AddSerilog(dispose: true);
                     logging.AddConsole();
                     logging.AddDebug();
                 })
