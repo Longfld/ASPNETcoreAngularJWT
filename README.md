@@ -14,7 +14,7 @@ Now you can stop google and find out how to do bear JWT token Authentication, it
  
 At backend: MS$ provide middleware UseJwtBearerAuthentication for bear JWT token Authentication, so, things turns to be as simple as add the middleware at Startup.cs 
 
-At frontend(angular in this case): save the token in sessionStorage, and when talking to backend, set header of http request as:
+At frontend(angular in this case): save the token in sessionStorage, and when talking to backend, set header of http(https for production) request as:
 
      let headers = new Headers({ 'Content-Type': 'application/json' });
      headers.append("Authorization", "Bearer " + token);
