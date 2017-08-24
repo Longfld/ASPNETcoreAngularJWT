@@ -12,7 +12,7 @@ ASP.NET Core2 angular 4 with systemjs.
 
 Now you can stop google and find out how to do bear JWT token Authentication, it is simple!
  
-At backend: MS$ provide middleware UseJwtBearerAuthentication for bear JWT token Authentication, so, things turns to be as simple as add the middleware at Startup.cs 
+At backend: MS$ provide middleware AddAuthentication().AddJwtBearer() for bear JWT token Authentication, so, things turns to be as simple as add the middleware at Startup.cs 
 
 At frontend(angular in this case): save the token in sessionStorage, and when talking to backend, set header of http(https for production) request as:
 
