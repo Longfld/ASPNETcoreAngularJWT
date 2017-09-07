@@ -19,6 +19,7 @@
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
             
              '@angular/material': 'npm:@angular/material/bundles/material.umd.js',
+             '@angular/cdk': 'npm:@angular/cdk/bundles/cdk.umd.js',
             // other libraries
             'rxjs': 'npm:rxjs',
             'hammerjs': 'npm:hammerjs'
