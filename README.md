@@ -51,8 +51,7 @@ Also it can be opened by both Visual Studio 2017 or Visual Studio Code.
 After open by VS2017 and before run as debug, make sure project-> property -> Debug and App URL ="http://localhost:5000" and rebuild again before start to debug
 
 
-
-
+Ether Address: 0x14ae3326511c9C0355f3f806674Fa9b399109d5e
 
 
 
