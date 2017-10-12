@@ -16,11 +16,12 @@ At backend: MS$ provide middleware AddAuthentication().AddJwtBearer() for bear J
 
 At frontend(angular in this case): save the token in sessionStorage, and when talking to backend, set header of http(https for production) request as:
 
-     let headers = new Headers({ 'Content-Type': 'application/json' });
-     headers.append("Authorization", "Bearer " + token);
+     let headers = new HttpHeaders()
+                        .set('Content-Type','application/json')
+                        .set("Authorization", "Bearer " + token);
 
 ************************************************************
-Angular (4.3.5) in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
+Angular (4.4.4) in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
 
 Make sure:
 
