@@ -24,7 +24,7 @@ import { AuthService } from "../shared/auth.service";
     </tr>
     <tr>
         <td></td>
-        <td><input type="button" (click)="login()" value="Login" /></td>
+        <td><button mat-raised-button color="primary"  (click)="login()" >Login</button></td>
     </tr>
 </table>
           </div>
