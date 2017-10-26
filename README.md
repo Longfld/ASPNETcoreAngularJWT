@@ -54,7 +54,6 @@ After open by VS2017 and before run as debug, make sure project-> property -> De
 
 Ether Address: 0x14ae3326511c9C0355f3f806674Fa9b399109d5e
 
-P.S. angular material beta 12 (2.0.0-beta.12) updates coming soon.
 
 
 
