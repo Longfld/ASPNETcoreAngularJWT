@@ -16,11 +16,11 @@ import { AuthService } from "../shared/auth.service";
           <table>
     <tr>
         <td>user name:</td>
-        <td><input [(ngModel)]="userName" placeholder="user1" /></td>
+        <td><input [(ngModel)]="userName" placeholder="user1" matTooltip="Enter User Name" matTooltipPosition="right" /></td>
     </tr>
     <tr>
         <td>password:</td>
-        <td><input [(ngModel)]="password" placeholder="user1psd" /></td>
+        <td><input [(ngModel)]="password" placeholder="user1psd"  matTooltip="Enter Password" matTooltipPosition="right" /></td>
     </tr>
     <tr>
         <td></td>
