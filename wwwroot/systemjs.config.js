@@ -50,10 +50,8 @@
                 main: './main.js',
                 defaultExtension: 'js'
             },
-            rxjs: {
-                defaultExtension: 'js'
-            },
-             hammerjs:  { 
+            rxjs: { main: 'index'},
+           hammerjs:  { 
                 main: './hammer.js', 
                 defaultExtension: 'js'}
         }
