@@ -54,10 +54,6 @@
             rxjs: {
                 defaultExtension: 'js'
             },
-            "rxjs/operators": {
-                "main": "index.js",
-                "defaultExtension": "js"
-           },
              hammerjs:  { 
                 main: './hammer.js', 
                 defaultExtension: 'js'}
