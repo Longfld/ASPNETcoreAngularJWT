@@ -13,7 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { SecretComponent } from './secret/secret.component';
 import { AuthService } from "./shared/auth.service";
 
-import 'hammerjs/hammer';
+//import 'hammerjs/hammer';
 
 @NgModule({
     imports: [
