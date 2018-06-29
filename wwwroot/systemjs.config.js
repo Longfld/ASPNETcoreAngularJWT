@@ -24,7 +24,7 @@
             
              //material
             '@angular/material': 'npm:@angular/material/bundles/material.umd.js',
-            '@angular/cdk': 'npm:@angular/cdk/bundles/cdk.umd.js',
+         //   '@angular/cdk': 'npm:@angular/cdk/bundles/cdk.umd.js',
             '@angular/cdk/a11y': 'npm:@angular/cdk/bundles/cdk-a11y.umd.js',
             '@angular/cdk/bidi': 'npm:@angular/cdk/bundles/cdk-bidi.umd.js',
             '@angular/cdk/coercion': 'npm:@angular/cdk/bundles/cdk-coercion.umd.js',
@@ -38,25 +38,23 @@
             '@angular/cdk/layout' : 'npm:@angular/cdk/bundles/cdk-layout.umd.js',
             '@angular/cdk/scrolling': 'npm:@angular/cdk/bundles/cdk-scrolling.umd.js',
             '@angular/cdk/table': 'npm:@angular/cdk/bundles/cdk-table.umd.js',
+            '@angular/cdk/text-field': 'npm:@angular/cdk/bundles/cdk-text-field.umd.js',
+            '@angular/cdk/tree': 'npm:@angular/cdk/bundles/cdk-tree.umd.js',
             '@angular/cdk/stepper': 'npm:@angular/cdk/bundles/cdk-stepper.umd.js',
   
             // other libraries
             'rxjs': 'npm:rxjs',
+            'rxjs-compat': 'npm:rxjs-compat',
+            'rxjs-system-bundle': 'npm:rxjs-system-bundle',
             'hammerjs': 'npm:hammerjs',
             'tslib': 'npm:tslib/tslib.js'
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
-            app: {
-                main: './main.js',
-                defaultExtension: 'js'
-            },
-            rxjs: {
-                defaultExtension: 'js'
-            },
-             hammerjs:  { 
-                main: './hammer.js', 
-                defaultExtension: 'js'}
+            app: {main: './main.js',defaultExtension: 'js'},
+            'rxjs': {main: 'index.js', defaultExtension: 'js'},
+            'rxjs/operators': {main: 'index.js', defaultExtension: 'js'},
+             hammerjs:  { main: './hammer.js', defaultExtension: 'js'}
         }
     });
 })(this);
