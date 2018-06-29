@@ -31,13 +31,13 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatStepperModule,
+  MatStepperModule
 } from '@angular/material';
-import {CdkTableModule} from '@angular/cdk/table';
+//import {CdkTableModule} from '@angular/cdk/table';
 
 @NgModule({
   exports: [
-    CdkTableModule,
+  //  CdkTableModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatButtonToggleModule,
