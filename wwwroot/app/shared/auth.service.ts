@@ -2,10 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Router, CanActivate } from '@angular/router';
 
-
-import { Observable } from 'rxjs/Observable';
-import { Subscription } from 'rxjs/Subscription';
-import { of } from 'rxjs/observable/of';
+import { Observable, of } from 'rxjs';
 import { map, distinctUntilChanged, debounceTime, catchError } from 'rxjs/operators'
 
 import { AuthBearer } from './AuthBearerInterface';
