@@ -21,7 +21,7 @@ At frontend(angular in this case): save the token in sessionStorage, and when ta
                         .set("Authorization", "Bearer " + token);
 
 ************************************************************
-Angular (6.0.5), material (6.0.2) in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
+Angular & material 6 in ASP.NET Core 2 (VS2017 or csproj version)with JWT solution.
 
 Make sure:
 
