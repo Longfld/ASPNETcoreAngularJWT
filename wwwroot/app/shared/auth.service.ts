@@ -1,18 +1,36 @@
 import { Injectable } from "@angular/core";
-import { HttpClient, HttpHeaders } from "@angular/common/http";
+
+import { HttpClient, HttpHeaders, HttpInterceptor, HttpRequest, HttpResponse, HttpHandler, HttpErrorResponse, HttpEvent } from "@angular/common/http";
 import { Router, CanActivate } from '@angular/router';
 
 import { Observable, of } from 'rxjs';
-import { map, distinctUntilChanged, debounceTime, catchError } from 'rxjs/operators'
+import { tap, map, distinctUntilChanged, debounceTime, catchError } from 'rxjs/operators'
 
 import { AuthBearer } from './AuthBearerInterface';
 
 @Injectable()
-export class AuthService implements CanActivate {
+export class AuthService implements CanActivate, HttpInterceptor {
     private tokeyKey = "token";
 
     constructor(private http: HttpClient, private router: Router) { }
-
+    
+    intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+        return next.handle(request).pipe(
+            tap(
+                event => {
+                    //               if (event instanceof HttpResponse) {}
+                }, (error: any) => {
+                    if (error instanceof HttpErrorResponse) {
+                        if (error.status == 401) {
+                            sessionStorage.clear();
+                            this.router.navigate(['logon']);
+                        }
+                    }
+                }
+            )
+        )
+    }
+    
     public canActivate() {
         if (this.checkLogin()) {
             return true;
